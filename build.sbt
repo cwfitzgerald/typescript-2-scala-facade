@@ -5,6 +5,8 @@ name := "typescript-2-scala-facade"
 version := "0.1.0"
 scalaVersion := "2.12.8"
 
+scalacOptions += "-P:scalajs:sjsDefinedByDefault"
+
 scalaJSUseMainModuleInitializer := true
 mainClass := Some("t2sf.main")
 
